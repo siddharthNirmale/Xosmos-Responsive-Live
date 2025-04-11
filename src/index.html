@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My First Web Page</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div id="navbar">
+        <img id="logo" src="https://pbs.twimg.com/profile_banners/1085262090191855616/1744383776/1500x500"
+            alt="Logo">
+    </div>
+
+    <!-- Banner -->
+    <img src="regos-kornyei-82UPKAHX00M-unsplash.jpg" id="banner" alt="Banner" height="500">
+
+    <!-- About Section -->
+    <h1>About Xosmos</h1>
+    <div id="about">
+        <div id="description">
+            <p style="margin-top: 0%;">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, praesentium nemo. Obcaecati voluptatem
+                magnam debitis.
+                In nulla praesentium distinctio reprehenderit ratione. Ullam rerum veniam aut <b>placeat</b> excepturi
+                ipsum minus esse.
+            </p>
+            <p>We also offer 2 industry focus bootcamps:</p>
+            <ol>
+                <li><a href="https://www.geeksforgeeks.org/user/siddharth17qanu/">Xosmos Full Stack Developer</a>
+                </li>
+                <li><a href="https://www.codechef.com/learn">Backend Developer</a></li>
+            </ol>
+        </div>
+        <div id="team">
+            <img id="teamimg" src="krakenimages-Y5bvRlcCx8k-unsplash.jpg" alt="Team">
+        </div>
+    </div>
+
+    <!-- Job Opportunities Section -->
+    <h2>Job Opportunities</h2>
+    <div id="jobs">
+        <table id="Jobs-table">
+            <thead>
+                <tr class="jobs-header">
+                    <th rowspan="2">Job Title</th>
+                    <th colspan="2">Location</th>
+                    <th rowspan="2">Salary</th>
+                    <th rowspan="2">Posted On</th>
+                </tr>
+                <tr class="jobs-header">
+                    <th>City</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="jobs-data">
+                    <td>Frontend Developer</td>
+                    <td>Bangluru</td>
+                    <td>India</td>
+                    <td>12000</td>
+                    <td>Mar 3 2025</td>
+                </tr>
+                <tr class="jobs-data">
+                    <td>Full Stack Developer</td>
+                    <td>Chennai</td>
+                    <td>India</td>
+                    <td>52000</td>
+                    <td>Mar 6 2025</td>
+                </tr>
+                <tr class="jobs-data">
+                    <td>Data Scientist</td>
+                    <td>Indore</td>
+                    <td>India</td>
+                    <td>51000</td>
+                    <td>Apr 6 2025</td>
+                </tr>
+                <tr class="jobs-data">
+                    <td>ML Engineer</td>
+                    <td colspan="2">Remote</td>
+                    <td>32000</td>
+                    <td>Jan 7 2025</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <h2>Submit your application</h2>
+    <form id="application" action="https://formbold.com/s/ozZMP"
+    method="Post"
+    enctype="multipart/form-data">
+        <div>
+            <div>
+                <label for="name">Name</label><br>
+                <input type='text' id="name" name="name" placeholder="John doe" required>
+            </div>
+            <div>
+                <label for="email">Email</label><br>
+                <input type='email' id="email" name="email" placeholder="johndoe@gmail.com" required>
+            </div>
+            <div>
+                <label for="phone">Phone no</label><br>
+                <input type='number' id="phone" name="phone" placeholder="+919898989898" required>
+            </div>
+            <div>
+                <label for="dob">Your DOB</label><br>
+                <input type='date' id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="Position">Position Applied for</label><br>
+                <select id="Position" name="'Position applied" required>
+                    <option>--Select</option>
+                    <option value="Frontend">Frontend Developer</option>
+                    <option value="Fullstack">Full stack Developer</option>
+                    <option value="Data Scientist">Data Scientist</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">message</label><br>
+                <textarea type='message' id="message" name="message"></textarea>
+            </div>
+
+            <div>
+
+                <input type='submit' id="submit" name="submit" required>
+            </div>
+    </form>
+    </div>
+    <!-- Footer -->
+    <div id="footer">
+        <ul id="footer-links">
+            <li><a href="https://www.codechef.com/learn" target="_blank">Courses</a></li>
+            <li><a href="https://www.codechef.com/learn" target="_blank">Programs</a></li>
+            <li><a href="https://www.codechef.com/learn" target="_blank">YouTube</a></li>
+        </ul>
+        <div class="copyright">© 2023 SID</div>
+    </div>
+
+</body>
+
+</html>
